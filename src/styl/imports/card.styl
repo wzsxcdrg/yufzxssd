@@ -1,0 +1,115 @@
+.item
+	width 100%
+	max-width 350px
+	display none
+
+	div.information
+		padding 3rem
+		height auto
+		margin-bottom 4rem
+		background #FFF
+		border-radius 0 0 10px 10px
+		border 1px solid grey-color
+		border-top none
+
+		.title
+			justify-content space-between
+			margin-bottom 10px
+
+			h1
+				font-size 2.4rem
+
+				a
+					color title-color
+					&:hover
+						color title-hover-color
+
+			.difficulty
+				height 3rem
+				width 3rem
+				border-radius 50%
+				border 2px solid black
+
+				&.easy
+					background #73f440
+
+				&.medium
+					background #FFFF00
+
+				&.hard
+					background #FF0009
+
+		p
+			font-size 1.6rem
+			line-height 1.4
+			color #222
+			justify-content flex-start
+			flex-wrap wrap
+
+			&.swag
+				margin 5px -3px 10px -3px
+
+				span.tag
+					background #737373
+					color #fff
+					border-radius 3px
+					margin 0 3px 6px
+					padding 2px 5px
+					font-size 1.6rem
+					&.hacktoberfest
+						background hacktoberfest-bg
+						color hacktoberfest-color
+					&.clothing
+						background clothing-bg
+						color clothing-color
+					&.stickers
+						background stickers-bg
+						color stickers-color
+					&.badges
+						background badges-bg
+						color badges-color
+					&.accessories
+						background accessories-bg
+						color accessories-color
+					&.device
+						background device-bg
+						color device-color
+
+			&.description
+				margin 10px 0
+				a
+					color tertiary-color
+					&:hover
+						color tertiary-hover-color
+
+		a.btn
+			color tertiary-color
+			font-size 1.8rem
+			padding .4rem 2rem
+			margin-top 1.2rem
+			border-radius .6rem
+			border 2px solid tertiary-color
+			text-decoration none
+			display inline-block
+
+			&:hover
+				background tertiary-color
+				color white-color
+				border 2px solid tertiary-color
+
+	img
+		height 100%
+		width auto
+		transition all 300ms linear
+
+	.img-container
+		height 300px
+		width 100%
+		overflow hidden
+		border-radius 10px 10px 0 0
+		border 1px solid grey-color
+		background white-color
+
+	&:hover
+		img
+			transform rotate(3deg) scale(1.05)
